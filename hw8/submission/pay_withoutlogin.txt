@@ -1,0 +1,19 @@
+# user 1
+create user1 user1 100000
+search "Seattle WA" "Boston MA" 1 1 1
+book 0
+pay 1
+pay 1
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot book reservations, not logged in
+Cannot pay, not logged in
+Cannot pay, not logged in
+Goodbye
+*

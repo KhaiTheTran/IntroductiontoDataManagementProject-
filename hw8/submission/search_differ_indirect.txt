@@ -1,0 +1,11 @@
+# user 1
+search "Houston TX" "San Francisco CA" 1 24 1
+quit
+*
+#
+# expected printouts for user 1
+#
+Itinerary 0: 1 flight(s), 219 minutes
+ID: 989232 Day: 24 Carrier: UA Number: 1062 Origin: Houston TX Dest: San Francisco CA Duration: 219 Capacity: 1 Price: 581
+Goodbye
+*

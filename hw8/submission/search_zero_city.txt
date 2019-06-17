@@ -1,0 +1,10 @@
+# user 1
+search "Barrow AK" "Seattle WA" 0 24 0
+quit
+*
+#
+# expected printouts for user 1
+#
+No flights match your selection
+Goodbye
+*
